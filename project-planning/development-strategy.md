@@ -1,4 +1,4 @@
-# JavaScript Quiz
+# JavaScript Promofocus
 
 ...
 
@@ -20,16 +20,100 @@
 
 ---
 
-## 1. Initialize Application
+## 1. User story : Initialize Application
 
 __As a user I want to see the initial page when I load the site__
+
+__Assigned to Sayed__
+
+- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+
+
+
+### REPO
+
+- This user story is developed on branch `initialize-application`.
+
+- This branch is merged to `master` branch after completion.
+
+### Task A
+- Create a wireframe
+
+### Task  B
+- Add HTML
+
+### Task ...
+ - Add CSS
+---
+
+## 2. User story : Set time 
+
+__As a user I would like be able to set the time to study base on promodo technique and set a time for long break and short break__
+
+__Assigned to Sayed__
+
+- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+
+
+### REPO
+
+- This user story is developed on branch `set-time`.
+
+- This branch is merged to `master` branch after completion.
+
+### Task A: CSS
+
+### Task B: HTML
+
+### Task C: JavaScript
+
+
+### Task D: Development Strategy
+
+- Wrote what I did in this branch(part of the project)
+
+### Task E: Issues
+
+- Created an issue for this user story
+
+### Tast F: PR
+
+- Create a PR and assigned reviewers
+
+---
+## 3. User story :  Add tasks in the list 
+
+__As a user I should be able to see a text box and add button so that I can be able to add tasks__
+
+__Assigned to Razvan__
 
 - _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
 - ...
 
 ### REPO
 
-- This user story is developed on branch `_`.
+- This user story is developed on branch `add-task`.
+- This branch is merged to `master` branch after completion.
+
+### Task A
+
+### Task B
+
+### Task ...
+
+---
+## 4. User story :  MARK/UNMARK -  add check box to update the task 
+
+__As a user I should be able to see the added items in todo list__
+
+__Assigned to Anna__
+
+- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+- ...
+
+### REPO
+
+- This user story is developed on branch `mark-unmark`.
 - This branch is merged to `master` branch after completion.
 
 ### Task A
@@ -40,4 +124,56 @@ __As a user I want to see the initial page when I load the site__
 
 ---
 
-## ...
+## 5. User story : Clear task
+
+__As a user I should be able to delete the tasks that I want__
+
+__Assigned to Yulia__
+
+
+### REPO
+
+- This user story is developed on branch `clear-task`.
+- This branch is merged to `master` branch after completion.
+
+### Create a deleteItems method
+---
+
+## 6. User story : Edit task
+
+__As a user I should be able to delete the tasks that I want__
+
+__Assigned to Murrielle__
+
+
+### REPO
+
+- This user story is developed on branch `edit-task`.
+- This branch is merged to `master` branch after completion.
+
+### Create a deleteItems method
+---
+
+
+
+## 7. Finishing Touches
+
+- Validate code to check for any last mistakes
+
+__Assigned to Murielle__
+
+- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+- ...
+
+### REPO
+
+- This user story is developed on branch `final-touch`.
+- This branch is merged to `master` branch after completion.
+
+### Task A
+
+### Task B
+
+### Task ...
+
+---
