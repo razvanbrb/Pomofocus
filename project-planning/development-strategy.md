@@ -22,13 +22,11 @@
 
 ## 1. User story : Initialize Application
 
-__As a user I want to see the initial page when I load the site__
+**As a user I want to see the initial page when I load the site**
 
-__Assigned to Sayed__
+**Assigned to Sayed**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
-
-
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 
 ### REPO
 
@@ -37,23 +35,36 @@ __Assigned to Sayed__
 - This branch is merged to `master` branch after completion.
 
 ### Task A
+
 - Create a wireframe
 
-### Task  B
-- Add HTML
+### Task B
+
+- Added `header tags`
+- Added `p tags`
+- Added `div tags`
+- Added `a tags`
+- Added `section tags`
+- Added `article tags`
+- Added `footer tag`
+- Added `ol&li tags`
+- Added `ul&li tags`
 
 ### Task ...
- - Add CSS
+
+- Added `link` for Google CSS ICONS
+- Added some icons
+- Added style for all created HTML tags
+
 ---
 
-## 2. User story : Set time 
+## 2. User story : Set time
 
-__As a user I would like be able to set the time to study base on promodo technique and set a time for long break and short break__
+**As a user I would like be able to set the time to study base on promodo technique and set a time for long break and short break**
 
-__Assigned to Sayed__
+**Assigned to Sayed**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
-
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 
 ### REPO
 
@@ -66,7 +77,6 @@ __Assigned to Sayed__
 ### Task B: HTML
 
 ### Task C: JavaScript
-
 
 ### Task D: Development Strategy
 
@@ -81,13 +91,14 @@ __Assigned to Sayed__
 - Create a PR and assigned reviewers
 
 ---
-## 3. User story :  Add tasks in the list 
 
-__As a user I should be able to see a text box and add button so that I can be able to add tasks__
+## 3. User story : Add tasks in the list
 
-__Assigned to Razvan__
+**As a user I should be able to see a text box and add button so that I can be able to add tasks**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+**Assigned to Razvan**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
@@ -102,13 +113,14 @@ __Assigned to Razvan__
 ### Task ...
 
 ---
-## 4. User story :  MARK/UNMARK -  add check box to update the task 
 
-__As a user I should be able to see the added items in todo list__
+## 4. User story : MARK/UNMARK - add check box to update the task
 
-__Assigned to Anna__
+**As a user I should be able to see the added items in todo list**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+**Assigned to Anna**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
@@ -126,10 +138,9 @@ __Assigned to Anna__
 
 ## 5. User story : Clear task
 
-__As a user I should be able to delete the tasks that I want__
+**As a user I should be able to delete the tasks that I want**
 
-__Assigned to Yulia__
-
+**Assigned to Yulia**
 
 ### REPO
 
@@ -137,14 +148,14 @@ __Assigned to Yulia__
 - This branch is merged to `master` branch after completion.
 
 ### Create a deleteItems method
+
 ---
 
 ## 6. User story : Edit task
 
-__As a user I should be able to delete the tasks that I want__
+**As a user I should be able to delete the tasks that I want**
 
-__Assigned to Murrielle__
-
+**Assigned to Murrielle**
 
 ### REPO
 
@@ -152,17 +163,16 @@ __Assigned to Murrielle__
 - This branch is merged to `master` branch after completion.
 
 ### Create a deleteItems method
+
 ---
-
-
 
 ## 7. Finishing Touches
 
 - Validate code to check for any last mistakes
 
-__Assigned to Murielle__
+**Assigned to Murielle**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
