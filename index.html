@@ -1,30 +1,160 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pomofocus</title>
 
-<head>
-  <meta charset='utf8'>
-  <title></title>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+		<link href="./public/style.css" rel="stylesheet" />
+	</head>
 
-  <link href="./public/style.css" rel="stylesheet" />
+	<body>
+		<main id="main">
+			<header id="main-header">
+				<h2><i class="material-icons">check_circle</i>Pomofocus</h2>
+				<div id="hdr-btn">
+					<h3><i class="material-icons">insert_chart</i> Report</h3>
+					<h3><i class="material-icons">settings</i> <span>Settings</span></h3>
+					<h3><i class="material-icons">person</i> <span>Login</span></h3>
+				</div>
+			</header>
 
-</head>
+			<!--  TIME BAR  -->
+			<div id="time-bar"></div>
 
-<body>
+			<section id="time-section">
+				<div>
+					<p>Pomodoro</p>
+					<p>Short Break</p>
+					<p>Long Break</p>
+				</div>
+				<h1>25:00</h1>
+				<h2 id="start">START</h2>
+			</section>
 
-  <main id='user-interface'>
-    <input id='list-name-input' />
-    <div id='lists'></div>
-  </main>
+			<section id="working-on">
+				<h3 id="current-task">Time To Work!</h3>
+				<!--  Todo item name comes here -->
+			</section>
 
+			<div id="todo-header">
+				<h3>Tasks</h3>
+				<h3 id="modify-btn"><i class="material-icons">more_vert</i></h3>
+			</div>
 
-  <!-- load the frontend testing & reviewing dependencies -->
-  <script src='./lib/review-buttons.js' type='module'></script>
-  <script src='./lib/gremlins.js'></script>
+			<section id="task-container">
+				<!--	Tasks created here!	-->
+			</section>
+			<section id="add-task-btn">
+				<h2><i class="material-icons">add_circle</i> Add Tasks</h2>
+			</section>
+			<br /><br />
+		</main>
+		<article id="main-article">
+			<header>
+				<h2>An online Pomodoro Timer to boost your productivity</h2>
+			</header>
+			<section>
+				<h2>What is Pomofocus?</h2>
+				<p>
+					Pomofocus is a customizable pomodoro timer that works on desktop &
+					mobile browser. The aim of this app is to help you focus on any task
+					you are working on, such as study, writing, or coding. This app is
+					inspired by
+					<span
+						><a
+							href="https://francescocirillo.com/pages/pomodoro-technique"
+							target="_blank"
+							class="link1"
+							>Pomodoro Technique</a
+						></span
+					>
+					which is a time management method developed by Francesco Cirillo.
+				</p>
+			</section>
+			<section>
+				<h2>What is Pomodoro Technique?</h2>
+				<p>
+					The Pomodoro Technique is created by Francesco Cirillo for a more
+					productive way to work and study. The technique uses a timer to break
+					down work into intervals, traditionally 25 minutes in length,
+					separated by short breaks. Each interval is known as a pomodoro, from
+					the Italian word for 'tomato', after the tomato-shaped kitchen timer
+					that Cirillo used as a university student. -
+					<span
+						><a
+							href="https://en.wikipedia.org/wiki/Pomodoro_Technique"
+							class="link1"
+							>Wikipedia</a
+						></span
+					>
+				</p>
+			</section>
+			<section>
+				<h2>How to use the Pomodoro Timer?</h2>
+				<ol>
+					<li><b>Add tasks</b> to work on today</li>
+					<li>
+						<b>Set estimate pomodoros</b> (1 = 25min of work) for each tasks
+					</li>
+					<li><b>Select a task </b>to work on</li>
+					<li><b>Start timer </b>and focus on the task for 25 minutes</li>
+					<li><b>Take a break </b>for 5 minutes when the alarm ring</li>
+					<li><b>Iterate </b>3-5 until you finish the tasks</li>
+				</ol>
+			</section>
+			<section>
+				<h2>Features</h2>
+				<ul>
+					<li><b>Responsive design</b> that works with desktop and mobile</li>
+					<li>
+						<b>Color transition</b> to switch moods between work time and rest
+						time
+					</li>
+					<li><b>Audio notification</b> at the end of a timer period</li>
+					<li><b>Customizable timer</b> intervals to suit your preference</li>
+				</ul>
+			</section>
+		</article>
 
-  <!-- load your app -->
-  <script type='module' src='./src/init.js'></script>
+		<br />
 
-</body>
+		<hr />
+		<br />
+		<!--	Footer	-->
+		<footer>
+			<div id="links">
+				<a href="./index.html">HOME</a>
+				<a href="#">PRIVACY</a>
+				<a href="#">CONTACT</a>
+			</div>
+			<div id="logos">
+				<a href="https://www.facebook.com/" target="_blank">F</a>
 
+				<a href="https://www.twitter.com/" target="_blank">T</a>
 
+				<a href="https://www.producthunt.com/posts/pomofocus-io" target="_blank"
+					>P</a
+				>
+			</div>
+			<p class="creators">Made by 5 Junior Developers</p>
+			<div class="copyright">
+				<p>
+					<i class="tiny material-icons">copyright</i>Pomofocus 2020. All Rights
+					Reserved.
+				</p>
+			</div>
+		</footer>
+
+		<!-- load the frontend testing & reviewing dependencies -->
+		<script src="./lib/review-buttons.js" type="module"></script>
+		<script src="./lib/gremlins.js"></script>
+
+		<!-- load your app -->
+		<script type="module" src="./src/init.js"></script>
+	</body>
 </html>
