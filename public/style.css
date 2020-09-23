@@ -1,0 +1,204 @@
+body {
+	font-family: "ArialRounded", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
+}
+
+main#main {
+	background: rgb(240, 91, 86);
+	color: white;
+	margin: -1%;
+	overflow: hidden;
+}
+
+header#main-header {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: space-around;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 9px;
+}
+
+div#time-bar {
+	border-bottom: 2px solid rgb(78, 62, 62);
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+header#main-header h2 {
+	cursor: pointer;
+}
+
+div#hdr-btn {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-around;
+	font-size: 1em;
+	align-items: center;
+}
+
+div#hdr-btn h3 {
+	margin: 5px;
+	border: 1px solid #e55;
+	background: rgb(241, 104, 131);
+	padding: 0.6em;
+	border-radius: 0.6em;
+	cursor: pointer;
+	appearance: button;
+	text-align: end;
+}
+
+section#time-section {
+	background: rgba(255, 255, 255, 0.1);
+	display: grid;
+	grid-template-rows: auto auto auto;
+	justify-content: center;
+	width: 46%;
+	padding: 20px 0px 30px;
+	text-align: center;
+	margin-left: 28%;
+	margin-top: 3%;
+}
+
+section#time-section h1 {
+	font-size: 7em;
+	padding: 0;
+
+	margin: 10px;
+}
+section#time-section div {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+section#time-section div p {
+	background: transparent;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 0.5rem;
+	color: white;
+	cursor: pointer;
+	margin: 1em;
+}
+
+h2#start {
+	background: white;
+	color: rgb(240, 91, 86);
+	padding: 0.5em 0.8em 0.5em 0.8em;
+	margin: 0 7vw 0 7vw;
+	cursor: pointer;
+}
+
+section#working-on {
+	text-align: center;
+}
+
+div#todo-header {
+	display: flex;
+	flex-direction: column column;
+	justify-content: space-between;
+	width: 46%;
+
+	text-align: center;
+	margin-left: 28%;
+	border-bottom: 2px white solid;
+}
+
+div#todo-header h3#modify-btn {
+	font-size: 1.2em;
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 2px 5px 2px 5px;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+section#add-task-btn {
+	width: 46%;
+	text-align: center;
+	margin-left: 28%;
+	border: 2px dashed rgb(155, 125, 125);
+	border-radius: 0.5rem;
+	margin-top: 2%;
+	background: rgb(209, 66, 61);
+	cursor: pointer;
+}
+
+article#main-article {
+	width: 100%;
+	background: #fff;
+	color: rgb(126, 50, 50);
+}
+span a.link1 {
+	text-decoration: none;
+	color: rgb(209, 66, 61);
+	font-weight: bold;
+}
+
+article#main-article header,
+article#main-article section {
+	width: 46%;
+	margin-left: 28%;
+}
+
+article#main-article header {
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+	font-size: 1.5em;
+}
+
+/**
+		Footer
+*/
+footer {
+	opacity: 0.6;
+}
+footer div#links {
+	width: 35%;
+	margin-left: 35%;
+	display: flex;
+	flex-direction: column column column;
+	justify-content: space-around;
+}
+
+footer div#links a {
+	text-decoration: none;
+	color: rgb(126, 50, 50);
+	font-weight: bold;
+}
+footer div#logos {
+	width: 35%;
+	margin-left: 35%;
+	display: flex;
+	flex-direction: column column column;
+	justify-content: space-around;
+	margin-top: 1vh;
+}
+
+footer div#logos img {
+	width: 50%;
+}
+
+footer div#logos a {
+	padding: 0.1em 0.4em 0.1em 0.4em;
+	margin: 1rem;
+	border-radius: 1em;
+	background: gray;
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+footer p.creators {
+	width: 35%;
+	margin-left: 35%;
+	text-align: center;
+}
+
+footer div.copyright {
+	width: 35%;
+	margin-left: 35%;
+	align-items: baseline;
+	text-align: center;
+}
