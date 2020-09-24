@@ -28,6 +28,7 @@ let setStyle = {
 		time = Breakminute * 60;
 		clockEl.textContent = "25:00";
 		updateTitle = "Time To Work";
+		pageTitle.textContent = `25:00 | ${updateTitle}`;
 	},
 	shrtBrk: function () {
 		startBtn.textContent = "START";
@@ -39,6 +40,7 @@ let setStyle = {
 		time = Breakminute * 60;
 		clockEl.textContent = "05:00";
 		updateTitle = "Short Break";
+		pageTitle.textContent = `05:00 | ${updateTitle}`;
 	},
 	lngBrk: function () {
 		debugger;
@@ -51,6 +53,7 @@ let setStyle = {
 		time = Breakminute * 60;
 		clockEl.textContent = "15:00";
 		updateTitle = "Long Break";
+		pageTitle.textContent = `15:00 | ${updateTitle}`;
 	},
 };
 
