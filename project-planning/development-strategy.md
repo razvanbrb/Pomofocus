@@ -74,13 +74,21 @@
 
 ### Task A: CSS
 
+- Added style attributes inside functions to change the style by running the function
+
 ### Task B: HTML
+
+- Update textContent of some elements by running the function
 
 ### Task C: JavaScript
 
+- Created functions to change the style
+- Created functions to make the timer work
+- Created variables and stored HTML elements inside
+
 ### Task D: Development Strategy
 
-- Wrote what I did in this branch(part of the project)
+- Wrote the development-strategy part for this branch
 
 ### Task E: Issues
 

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Pomofocus</title>
+		<title id="title">25:00 Time for Work</title>
 
 		<link
 			rel="stylesheet"
@@ -26,13 +26,15 @@
 			<!--  TIME BAR  -->
 			<div id="time-bar"></div>
 
+			<!--	Time Section	-->
+
 			<section id="time-section">
 				<div>
-					<p>Pomodoro</p>
-					<p>Short Break</p>
-					<p>Long Break</p>
+					<p id="pomodoro">Pomodoro</p>
+					<p id="short-break">Short Break</p>
+					<p id="long-break">Long Break</p>
 				</div>
-				<h1>25:00</h1>
+				<h1 id="clock">25:00</h1>
 				<h2 id="start">START</h2>
 			</section>
 
@@ -150,6 +152,7 @@
 			</div>
 		</footer>
 
+		<script src="./public/set-time.js"></script>
 		<!-- load the frontend testing & reviewing dependencies -->
 		<script src="./lib/review-buttons.js" type="module"></script>
 		<script src="./lib/gremlins.js"></script>
