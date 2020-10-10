@@ -9,13 +9,14 @@ let clockEl = document.getElementById("clock");
 let startBtn = document.getElementById("start");
 let addTaskBtn = document.getElementById("add-task-btn");
 let pageTitle = document.getElementById("title");
+let progressBar = document.getElementById("progress-bar");
 
-let Breakminute, time, strt, updateTitle;
-
+let Breakminute, time, strt, updateTitle, moveNext, wit;
+wit = 0;
 // runs when refresh the page
 Breakminute = 25;
 time = Breakminute * 60;
-
+moveNext = 100 / time;
 // style for study time, short break time and long break time
 let setStyle = {
 	pomofocus: function () {
@@ -27,6 +28,8 @@ let setStyle = {
 		Breakminute = 25;
 		time = Breakminute * 60;
 		clockEl.textContent = "25:00";
+		moveNext = 100 / time;
+		wit = 0;
 		updateTitle = "Time To Work";
 		pageTitle.textContent = `25:00 | ${updateTitle}`;
 	},
@@ -39,6 +42,8 @@ let setStyle = {
 		Breakminute = 5;
 		time = Breakminute * 60;
 		clockEl.textContent = "05:00";
+		moveNext = 100 / time;
+		wit = 0;
 		updateTitle = "Short Break";
 		pageTitle.textContent = `05:00 | ${updateTitle}`;
 	},
@@ -52,6 +57,8 @@ let setStyle = {
 		Breakminute = 15;
 		time = Breakminute * 60;
 		clockEl.textContent = "15:00";
+		moveNext = 100 / time;
+		wit = 0;
 		updateTitle = "Long Break";
 		pageTitle.textContent = `15:00 | ${updateTitle}`;
 	},
@@ -62,13 +69,21 @@ let clickHandlers = {
 	start: function () {},
 	stop: function () {},
 };
-
+let startStop = false;
+let clearInt;
 // run the function on click but it runs automatically
 let runFunc = function () {
-	setInterval(countDown, 1000);
+	startStop = !startStop;
+	if (startStop) {
+		clearInt = setInterval(countDown, 1000);
+	} else {
+		startBtn.textContent = "START";
+		clearInterval(clearInt);
+	}
 };
 
 // countdown function for the timer
+
 function countDown() {
 	debugger;
 	startBtn.textContent = "STOP";
@@ -82,6 +97,9 @@ function countDown() {
 	var formatNum = ("0" + second).slice(-2);
 	var formatNum1 = ("0" + minute).slice(-2);
 	clockEl.innerHTML = `${formatNum1}:${formatNum}`;
+	//moveNext++;
+	wit = wit + moveNext;
+	progressBar.style.width = `${wit}%`;
 
 	pageTitle.innerHTML = `${formatNum1}:${formatNum} | ${updateTitle}`;
 	time--;

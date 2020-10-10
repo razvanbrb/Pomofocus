@@ -25,6 +25,13 @@ div#time-bar {
 	border-bottom: 2px solid rgb(78, 62, 62);
 	margin-left: 20%;
 	margin-right: 20%;
+	height: 4px;
+}
+
+#progress-bar {
+	width: 0%;
+	height: 2px;
+	background: white;
 }
 
 header#main-header h2 {
